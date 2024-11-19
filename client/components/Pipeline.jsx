@@ -9,12 +9,12 @@ import CardContent from '@material-ui/core/CardContent';
 import * as Colors from '@material-ui/core/colors';
 import Typography from '@material-ui/core/Typography';
 
-const goServerUrl = process.env.GO_SERVER_URL;
+const goPublicServerUrl = process.env.GO_PUBLIC_SERVER_URL;
 const showBuildLabels = process.env.SHOW_BUILD_LABELS;
 const linkToPipelineInGo = process.env.LINK_TO_PIPELINE_IN_GO;
 const hideWeatherIcons = process.env.HIDE_WEATHER_ICONS;
 
-const pipelineHistoryUrl = goServerUrl + '/go/tab/pipeline/history/';
+const pipelineHistoryUrl = goPublicServerUrl + '/go/tab/pipeline/history/';
 
 // Weather icon indicator
 const weatherIconStatuses = ['sunny', 'partlycloudy', 'cloudy', 'cloudy', 'pouring', 'lightning'];
