@@ -27,7 +27,8 @@ module.exports = {
         SWITCH_BETWEEN_PAGES_INTERVAL: conf.switchBetweenPagesInterval,
         SHOW_BUILD_LABELS: conf.showBuildLabels,
         LINK_TO_PIPELINE_IN_GO: conf.linkToPipelineInGo,
-        HIDE_WEATHER_ICONS: conf.hideWeatherIcons
+        HIDE_WEATHER_ICONS: conf.hideWeatherIcons,
+        GO_PUBLIC_SERVER_URL: `'${conf.goPublicServerUrl}'`
       }
     }),
     // Ignore all locale files of moment.js
